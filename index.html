@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Curso profissional de tatuagem presencial e kit de materiais de qualidade">
+    <title>Witch Ink | Curso Profissional de Tatuagem</title>
+    <style>
+        /* Reset básico para eliminar margens/paddings não intencionados */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Garante que o footer fique sempre na base */
+        }
+        
+        /* Header estilizado e centralizado */
+        header {
+            background: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .logo-container {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .logo-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Container principal centralizado */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1; /* Empurra o footer para baixo */
+        }
+        
+        /* Seção de recursos/cursos */
+        .course-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+            justify-content: center; /* Centraliza os cards */
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        /* Botão de CTA estilizado */
+        .cta-button {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 10px 0;
+            transition: background 0.3s ease;
+            text-align: center;
+        }
+        
+        .cta-button:hover {
+            background: #128C7E;
+        }
+        
+        /* Footer sem margens extras */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+            width: 100%;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .course-features {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .feature {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <!-- 
+                Aqui você tem duas opções para inserir seu logo:
+                
+                1. Usando um arquivo SVG (recomendado para melhor performance):
+                   <img src="caminho/para/seu-logo.svg" alt="Witch Ink - Curso de Tatuagem Profissional">
+                
+                2. Inserindo o código SVG diretamente (substitua todo este comentário pelo seu SVG):
+                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">...</svg>
+            -->
+            <img src="Witch-Ink-logo.svg" alt="Witch Ink - Curso de Tatuagem Profissional" width="300" height="100">
+        </div>
+        <p>Aprenda do zero com quem já está no mercado!</p>
+    </header>
+
+    <main class="container">
+        <h2>Transforme sua paixão em profissão</h2>
+        <p>Curso presencial com suporte personalizado e materiais de alta qualidade.</p>
+        
+        <div class="course-features">
+            <div class="feature">
+                <h3>🎨 Curso Presencial</h3>
+                <p>Aprenda com instrutores experientes em nosso estúdio.</p>
+            </div>
+            <div class="feature">
+                <h3>🛒 Kit de Tatuagem</h3>
+                <p>Adquira os melhores materiais para iniciar seu trabalho.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="https://wa.me/5511932450014?text=Quero+mais+informações+sobre+o+curso" class="cta-button">FALE CONOSCO (WhatsApp)</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Witch Ink. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
